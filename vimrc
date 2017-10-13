@@ -24,6 +24,15 @@ call plug#end()
 " make backspace great again
 set backspace=2
 
+" ensure that the cursor is at least 5 lines above bottom
+set scrolloff=5
+
+" show line numbers
+set number
+
+" make Y behavior consistent with C and D 
+map Y y$
+
 " vim-airline to appear all the time
 set laststatus=2
 set noshowmode
