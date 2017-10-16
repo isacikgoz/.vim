@@ -4,6 +4,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go'
 Plug 'plasticboy/vim-markdown'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
+Plug 'keith/swift.vim'
+Plug 'vim-syntastic/syntastic'
 
 " visual
 Plug 'vim-airline/vim-airline'
@@ -30,8 +32,14 @@ set scrolloff=5
 " show line numbers
 set number
 
-" make Y behavior consistent with C and D 
+" make Y behavior consistent with C and D
 map Y y$
+
+" move end of line more consistently
+map el $
+
+" move beginning of line more consistently
+map eh 0
 
 " vim-airline to appear all the time
 set laststatus=2
