@@ -1,10 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 " editor
-Plug 'fatih/vim-go'
 Plug 'plasticboy/vim-markdown'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
-Plug 'keith/swift.vim'
 Plug 'w0rp/ale'
 
 " visual
