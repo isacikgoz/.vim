@@ -42,15 +42,10 @@ map eh 0
 set laststatus=2
 set noshowmode
 let g:airline#extensions#ctrlp#enabled = 1
-let g:Powerline_symbols = 'fancy'
-let g:airline_right_alt_sep = ''
-let g:airline_right_sep = ''
-let g:airline_left_alt_sep= ''
-let g:airline_left_sep = ''
 
 " vim-airline-theme
 " set t_Co=256
-let g:airline_theme = 'flowers'
+let g:airline_theme = 'minimalist'
 
 " vim markdown options
 let g:vim_markdown_folding_disabled = 1
