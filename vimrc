@@ -2,7 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 " editor
 Plug 'plasticboy/vim-markdown'
-Plug 'w0rp/ale'
+" Plug 'w0rp/ale'
 
 " visual
 Plug 'vim-airline/vim-airline'
@@ -62,6 +62,9 @@ highlight link ALEErrorSign Title
 
 " to use fzf in vim
 set rtp+=/usr/local/opt/fzf
+
+" Map escape key to jj -- much faster to exit insert mode
+imap jj <esc>
 
 " Customize fzf colors to match your color scheme
 let g:fzf_colors =
